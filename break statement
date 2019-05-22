@@ -1,3 +1,13 @@
+# -*- coding: utf-8 -*-
+
+"""
+
+Created on Wed May 22  2019
+
+
+
+@author: BAF
+
 Value = input("Type less than 6 characters: ")
 LetterNum = 1
 for Letter in Value:
