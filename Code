@@ -1,0 +1,19 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed May 22 10:27:38 2019
+
+@author: BAF
+"""
+word_input = input("Type a word")
+
+def reverse_slicing(s):
+    return s[::-1]
+
+if __name__ == "__main__":
+    word_output= reverse_slicing(word_input)
+a=str.lower(word_output)
+b=str.lower(word_input)
+if a==b:
+ print('Palindrome')
+else:    
+ print('not Palindrome')
