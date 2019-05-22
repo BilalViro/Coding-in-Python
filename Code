@@ -17,3 +17,6 @@ if a==b:
  print('Palindrome')
 else:    
  print('not Palindrome')
+c=a+b
+print(c)
+
